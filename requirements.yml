@@ -1,0 +1,16 @@
+name: rostea
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - streamlit
+      - langchain
+      - langchain-community
+      - chromadb
+      - sentence-transformers
+      - torch
+      - pandas
+      - requests
